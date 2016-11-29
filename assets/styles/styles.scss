@@ -1,2 +1,110 @@
 ---
 ---
+
+/*
+Variables
+*/
+
+// Color variables
+$dark-grey: #333;
+$midtone-grey: #757575;
+$light-grey: #eaeaea;
+$green: #17A190;
+$blue: #2B67A3;
+
+// Font size variables
+$font-size-small: 0.8em;
+$font-size-medium: 1.5em;
+
+/*
+Resets
+*/
+
+body {
+  font-family: "Helvetica";
+}
+
+ul, li, h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Main styling
+*/
+
+.btn {
+  margin: 2em auto;
+  font-size: $font-size-small;
+  display: block;
+  text-align: center;
+  background: $blue;
+  border: none;
+  border-radius: 3px;
+  padding: .7em 2em;
+  color: white;
+  text-transform: uppercase;
+}
+
+.page__content {
+  margin: 0 auto;
+  text-align: center;
+  color: $midtone-grey;
+  width: 50%;
+}
+
+  .page__content-section {
+    border-bottom: 1px solid $light-grey;
+    padding: 3em 0;
+  }
+
+    .page__content-section-header {
+      margin: 0 0 30px;
+      color: $dark-grey;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+.hero {
+  text-align: center;
+  background: $light-grey;
+  padding: 6em 0 10em;
+}
+  .hero__logo {
+    width: 12em;
+  }
+
+  .hero__main-header {
+    margin-top: 2em;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: $font-size-medium;
+  }
+
+.nav {
+  background: $dark-grey;
+  height: 50px;
+}
+
+  .nav__list {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
+  .nav__list-item {
+      display: block;
+      padding: 1.2em;
+      color: $light-grey;
+      font-size: $font-size-small;
+      font-weight: bold;
+      text-transform: uppercase;
+  }
+
+.footer {
+  background: $green;
+  text-align: center;
+  padding: 1em;
+  color: white;
+}
