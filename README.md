@@ -1,6 +1,6 @@
 # FEO
 Front End Ottawa brochure website
-https://frontendottawa.github.io/FEO/
+https://frontendottawa.github.io/
 
 ### Contributing
 
