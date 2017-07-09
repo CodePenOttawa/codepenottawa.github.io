@@ -1,6 +1,6 @@
-# FEO
-Front End Ottawa brochure website
-https://frontendottawa.github.io/
+# CodePen Ottawa
+CodePen Ottawa brochure website
+https://codepenottawa.github.io/
 
 ### Contributing
 
