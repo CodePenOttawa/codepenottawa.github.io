@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Welcome to Front End Ottawa
+title: Welcome to CodePen Ottawa
 ---
 
 <section class="hero">
-  <img class="hero__logo" src="assets/images/feo_logo.png" alt="Front End Ottawa Logo" />
-  <h1 class="hero__main-header">Welcome to Front End <strong>Ottawa</strong></h1>
+  <img class="hero__logo" src="assets/images/feo_logo.png" alt="CodePen Ottawa Logo" />
+  <h1 class="hero__main-header">Welcome to CodePen <strong>Ottawa</strong></h1>
 </section>
 <section class="page__content">
   <div class="page__content-section">
